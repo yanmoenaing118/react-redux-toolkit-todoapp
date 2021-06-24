@@ -2,36 +2,3 @@
   margin-top: 2rem;
   list-style-type: none;
 }
-
-.TodoItem {
-  transition: all 0.2s ease;
-  border-left: 3px solid var(--bluish-gray);
-  padding: 0.8rem;
-  display: flex;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.TodoItem:hover {
-  transform: scale(1.05);
-}
-
-.TodoItem:first-child {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.TodoItem p {
-  flex: 1;
-}
-
-.TodoItem div {
-  margin-left: 1rem;
-  display: flex;
-}
-
-.TodoItem > div {
-  cursor: pointer;
-}
-
-.TodoItem div > div:hover {
-  transform: scale(1.1);
-}

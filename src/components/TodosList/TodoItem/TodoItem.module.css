@@ -1,0 +1,70 @@
+.TodoItem {
+  transition: all 0.2s ease;
+  border-left: 3px solid var(--bluish-gray);
+  padding: 0.8rem;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.TodoItem:hover {
+  transform: scale(1.05);
+}
+
+.TodoItem:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.TodoItem p {
+  flex: 1;
+}
+
+.TodoItem div {
+  margin-left: 1rem;
+  display: flex;
+}
+
+.TodoItem > div {
+  cursor: pointer;
+}
+
+.TodoItem div > div:hover {
+  transform: scale(1.1);
+}
+
+.ConfirmBox {
+  background-color: var(--white);
+  margin-top: 50%;
+  padding: 2rem;
+}
+
+.ConfirmBox h2 {
+  color: var(--secondary-color);
+  text-align: center;
+  font-weight: 300;
+}
+
+.ConfirmBox div {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.Button {
+  padding: 0.8rem 1.8rem;
+  border: none;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.Button:first-child {
+  margin-left: 0;
+}
+
+.ButtonCancel {
+  background-color: var(--primary-color);
+}
+
+.ButtonDelete {
+  background-color: var(--secondary-color);
+}
