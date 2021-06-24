@@ -1,0 +1,21 @@
+.SearchInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.SearchInputForm {
+  flex: 1;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+.SearchInputClose {
+  background-color: var(--primary-color);
+  width: 60px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

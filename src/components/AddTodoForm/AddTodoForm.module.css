@@ -1,0 +1,42 @@
+.AddTodoForm {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  /* background-color: var(--primary-color); */
+}
+
+.AddTodoForm label {
+  font-size: 1.3rem;
+  color: var(--gray);
+}
+
+.AddTodoForm input {
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 0;
+  border: none;
+  border: 1px solid #ccc;
+  color: var(--bluish-gray);
+  margin: 1rem 0;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  font-size: 1.2rem;
+}
+
+.AddTodoForm input::placeholder {
+  font-size: 1rem;
+}
+
+.AddTodoForm input:focus {
+  outline: none;
+}
+
+.AddTodoForm span {
+  margin-left: -35px;
+  transition: margin 0.2s ease-in;
+}
+
+.AddTodoForm input:focus ~ span {
+  margin-left: -30px;
+}

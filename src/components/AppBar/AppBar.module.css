@@ -1,0 +1,32 @@
+.AppBar {
+  height: 78px;
+  box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.AppBarCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AppBarCenter h1 {
+  color: var(--bluish-gray);
+  font-weight: lighter;
+  position: relative;
+  font-style: italic;
+}
+
+.AppBarCenter h1::after {
+  content: "";
+  width: 117%;
+  height: 4px;
+  background-color: var(--bluish-gray);
+  position: absolute;
+  left: 4px;
+  bottom: -6px;
+  border-top-left-radius: 50%;
+}
